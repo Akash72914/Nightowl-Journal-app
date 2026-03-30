@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
       <html lang="en">
         <body className={`${inter.className} relative bg-background text-foreground`}>
-          
+
           {/* ★ Background Pattern (NOW VISIBLE) */}
           <div
             className="fixed inset-0 pointer-events-none z-0"
@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
           {/* Footer */}
           <footer className="py-12 bg-opacity-10 relative z-10">
             <div className="container mx-auto px-4 text-center text-gray-900 dark:text-gray-200">
-              <p>Made with 💙 by Krishna</p>
+              <p>Made with 💙 by Akash</p>
             </div>
           </footer>
 

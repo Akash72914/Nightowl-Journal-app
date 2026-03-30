@@ -6,7 +6,7 @@
   },
   {
     "text": "Writing daily has strengthened my mindset both on and off the field. The prompts keep me motivated every day.",
-       "author": "Kartikeya Sharma",
+    "author": "Kartikeya Sharma",
     "role": "National Football Player"
   },
   {
@@ -15,14 +15,13 @@
     "role": "SDE @Amazon"
   },
   {
-    "text": "Creativity needs space, and this journal gives me exactly that. It’s become a part of my daily artistic routine.",
+    "text": "Creativity needs space, and this journal gives me exactly that. It has become a part of my daily workflow.",
     "author": "Akash Yadav",
-    "role": "Winner – Dance India Dance"
+    "role": "Software Developer"
   },
   {
-  "text": "Creating this journal has been transformative for me. It helps me stay mindful, organised, and connected to my own thoughts every day.",
-  "author": "Krisha",
-  "role": "Site Creator"
-}
-
+    "text": "Using this journal has been a refreshing experience. It helps me stay organized and focused.",
+    "author": "Krisha",
+    "role": "Product Strategist"
+  }
 ]
