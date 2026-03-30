@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* globals.css */
+html, body {
+  /* Prevent horizontal scroll from overflowing elements */
+  overflow-x: hidden;
+}
+
+
+@layer base {
+  :root {
+    /* --- LIGHT MODE (Black & White Theme) --- */
+    --background: 0 0% 100%;            /* White */
+    --foreground: 0 0% 5%;              /* Almost Black */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 5%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 5%;
+
+    --primary: 0 0% 5%;                 /* Black */
+    --primary-foreground: 0 0% 98%;     /* White */
+
+    --secondary: 0 0% 92%;              /* Light Gray */
+    --secondary-foreground: 0 0% 5%;
+
+    --muted: 0 0% 92%;
+    --muted-foreground: 0 0% 45%;       /* Medium Gray */
+
+    --accent: 0 0% 92%;                 /* Soft Gray */
+    --accent-foreground: 0 0% 5%;
+
+    --destructive: 0 84% 50%;           /* Red (kept for errors) */
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 85%;                 /* Subtle Gray */
+    --input: 0 0% 85%;
+    --ring: 0 0% 5%;
+
+    /* Neutral grayscale chart colors */
+    --chart-1: 0 0% 10%;
+    --chart-2: 0 0% 30%;
+    --chart-3: 0 0% 50%;
+    --chart-4: 0 0% 70%;
+    --chart-5: 0 0% 90%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* --- DARK MODE (True Black Theme) --- */
+    --background: 0 0% 5%;              /* Almost Black */
+    --foreground: 0 0% 98%;             /* White */
+
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;                /* White */
+    --primary-foreground: 0 0% 5%;      /* Black */
+
+    --secondary: 0 0% 15%;              /* Dark Gray */
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 0 0% 20%;                 /* Dark Gray */
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 63% 30%;           /* Darker Red */
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 0 0% 98%;
+
+    --chart-1: 0 0% 98%;
+    --chart-2: 0 0% 80%;
+    --chart-3: 0 0% 60%;
+    --chart-4: 0 0% 40%;
+    --chart-5: 0 0% 20%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+@layer utilities {
+  .nightowl-title {
+    @apply font-semibold tracking-tight
+           bg-gradient-to-r
+           from-blue-500 via-blue-600 to-blue-700
+           dark:from-blue-300 dark:via-blue-400 dark:to-blue-500
+           bg-clip-text text-transparent;
+  }
+}
+@layer utilities {
+  .gradient-underline {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    text-decoration-color: transparent;
+    background-image: linear-gradient(to right, #1976D2, #1565C0, #0D47A1);
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    background-position: 0 calc(100% - 1px);
+  }
+}
+
+
+@layer utilities {
+  /* Modern black–white gradient title */
+  .gradient-title {
+  @apply font-extrabold bg-gradient-to-br
+         from-blue-600 via-blue-700 to-blue-900
+         dark:from-blue-400 dark:via-blue-500 dark:to-blue-700
+         bg-clip-text text-transparent tracking-tighter pr-2 pb-2;
+}
+
+}
+
+.ql-toolbar {
+  border-radius: 5px;
+}
+
+.ql-container {
+  min-height: 80vh;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.ql-editor {
+  height: 100%;
+  flex: 1;
+  overflow-y: auto;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
