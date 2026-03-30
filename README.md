@@ -139,4 +139,4 @@ This project is licensed under the **MIT License**.
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGYzYXMwamxkZnQ5ZTE1YjZyN3I2MTR1azlodG40dnkwNHFsNXo4dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ui1hpJSyBDWlG/giphy.gif" width="300" />
 </p>
 
-<p align="center">✨ Built with passion by Krishna ✨</p>
+<p align="center">✨ Built with passion by Akash ✨</p>
