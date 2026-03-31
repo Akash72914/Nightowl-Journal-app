@@ -82,7 +82,7 @@ Built using Next.js, Clerk, Prisma ORM, TailwindCSS & Arcjet Security.
 
 ### **1️⃣ Clone the repository**
 ```bash
-git clone https://github.com/Akash72914/nightowl-journal-app.git
+git clone https://github.com/Akash72914/Nightowl-Journal-app.git
 cd nightowl-journal-app
 ```
 
