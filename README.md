@@ -7,7 +7,7 @@
   />
 </p>
 
-<h1 align="center">🦉 NIGHTOWL — Minimal & Modern Journal Web App</h1>
+<h1 align="center">🦉 NIGHTOWL — Journal Web App</h1>
 
 <p align="center">
 A beautiful, distraction-free journal application designed for night thinkers.  
@@ -17,7 +17,7 @@ Built using Next.js, Clerk, Prisma ORM, TailwindCSS & Arcjet Security.
 ---
 
 ## 🌐 Live Demo  
-✨ Explore the app here: https://nightowl-journal.vercel.app/
+✨ Explore the app here: https://nightowl-journal-app-seven.vercel.app/
 
 ---
 
@@ -82,7 +82,7 @@ Built using Next.js, Clerk, Prisma ORM, TailwindCSS & Arcjet Security.
 
 ### **1️⃣ Clone the repository**
 ```bash
-git clone https://github.com/krishnapschauhan/nightowl-journal-app.git
+git clone https://github.com/Akash72914/nightowl-journal-app.git
 cd nightowl-journal-app
 ```
 
